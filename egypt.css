@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 62.5%/1.5 Arial, Verdana, Geneva, sans-serif;
+	background-image: url(images/ancient-egyptian-pyramids.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	line-height: 1.3;
+}
+p{
+	margin-bottom:1.3em;
+	margin-left:1em;
+	font-size:1.5em;
+	line-height: 1.5;
+}
+h2{
+	font-size:2.0em;
+	padding: 5px;	
+}
+
+h2, h3, h4{
+    line-height: 1.5;
+    padding: 5px;
+ }
+ h3, h4{font-size:1.8em;}
+ 
+#wrapper{
+	width:950px;
+	margin:0 auto;
+	background-color: rgba(255,255,255,0.8);
+}
+header{
+	height:200px;
+}
+
+#section3{
+	clear:both;
+	height:93px;
+	border-top:1px solid #ccc;
+}
+
+footer{
+	height:150px;
+	clear:both;
+	background-image: url(images/eh-a.jpg);
+    background-repeat: no-repeat;
+	
+}
+
+/*footer content*/
+
+.copy2013{
+color:#fff;
+float:left;
+padding-top:20px;
+width:950px;
+font-size:0.8em;
+font-weight:bold;
+}
+#great{
+	color: #fff;
+	text-align: center;
+	font-size: 6.0em;
+	margin-top: 25px;
+}
+
+/*nav stuff here*/
+nav{
+    background-color: #9f724b;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 0px;
+   font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+nav a:link, nav a:visited{
+    padding:10px 30px;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #c6d2f2;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #FF0000;
+}
+article{
+    width: 650px;
+    padding: 10px;
+    padding-right:20px;
+	margin: 5px 10px;
+    float: left;
+    
+}
+
+ /*Slideshow Styling*/
+ 
+#imageHolder{
+	margin-left: 110px;
+	margin-top: 15px;
+}
+#caption{
+	margin-left: 110px;
+	margin-top: 5px;
+	font-size: 1.9em;
+	font-weight: bold;
+}
+
+
+/*Video Page Styling*/
+#videoHolder{
+			width:800px;
+			margin:0 auto;
+			margin-top: 10px;
+			padding-right: 30px;
+		}
+
+		.titleVideo{
+			color:#000;
+
+		}
+		.userName{
+			font-style:italic;
+			color:#000;
+			line-height:.8em;
+		}
+		
+/*Wikimedia and Info Page Styling*/
+.wikihead{
+	margin-left: 40px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+#button{
+	margin-top: 5px;
+   	margin-bottom: 5px;
+   	margin-left: 20px;
+   	width: 150px;
+
+}
+#searchText{
+	margin-top: 5px;
+   	margin-bottom: 5px;
+   	margin-left: 20px;
+   	width: 148px;
+   	height: 20px;
+}
+#term{
+	margin-left: 15px;
+}
+#results a{
+	font-size: 1.5em;
+	margin-left: 7px;
+}
+img.pin{
+	margin-left: 120px;
+}
